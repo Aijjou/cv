@@ -1,0 +1,91 @@
+:host {
+  display: flex;
+  flex-direction: column;
+  background-color: #6a937d;
+  height: 100%;
+  width: 25%;
+  font-family: Lato, sans-serif;
+}
+
+.titrenav {
+  color: bisque;
+  font-size: 20px;
+  margin-left: 25px;
+  margin-top: 30px;
+}
+
+.bloc1,
+.bloc2,
+.bloc3,
+.bloc4,
+.bloc5,
+.bloc6 {
+  display: flex;
+  flex-direction: row;
+  margin: 15px 8px 15px 8px;
+}
+
+mat-icon {
+  height: 30px;
+  width: 30px;
+  padding: 0px;
+  margin-left: 15px;
+  margin-top: 20px;
+}
+
+.situation {
+  display: flex;
+  align-self: flex-end;
+  margin-left: 10px;
+  width: 100%;
+  padding-bottom: 7px;
+}
+
+.tel {
+  display: flex;
+  align-self: flex-end;
+  margin-left: 10px;
+  width: 100%;
+  padding-bottom: 7px;
+}
+
+.bloc {
+  display: flex;
+  flex-direction: column;
+  align-content: space-between;
+  font-size: 14px;
+}
+
+.mail {
+  display: flex;
+  align-self: flex-end;
+  margin-left: 10px;
+  width: 100%;
+  padding-bottom: 7px;
+}
+
+.adresse {
+  display: flex;
+  align-self: flex-end;
+  margin-left: 10px;
+  width: 100%;
+  padding-bottom: 7px;
+}
+
+.reseaux {
+  display: flex;
+  align-self: flex-end;
+  margin-left: 10px;
+  width: 100%;
+  padding-bottom: 7px;
+}
+
+.cv {
+  display: flex;
+  align-self: flex-end;
+  margin-left: 10px;
+  width: 100%;
+  padding-bottom: 7px;
+}
+
+

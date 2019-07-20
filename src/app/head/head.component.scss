@@ -1,0 +1,75 @@
+:host {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  height: 15%;
+  background-color: bisque;
+  margin-bottom: 2px;
+  font-family: Lato, sans-serif;
+  justify-content: space-between;
+}
+
+.mohamed {
+  align-self: center;
+  margin-left: 15px;
+  font-size: 30px;
+  color: #6a937d;
+  margin-top: 5px;
+}
+
+.aijjou {
+  font-size: 25px;
+  color: black;
+}
+
+.poste {
+  align-self: center;
+  margin-right: 24px;
+}
+
+.mobile {
+  color: #6a937d;
+  font-size: 27px;
+}
+
+.exp {
+  align-self: flex-end;
+  color: #6a937d;
+  font-style: oblique;
+  font-size: 18px;
+}
+
+.formation {
+  align-self: flex-end;
+  color: #6a937d;
+  font-size: 18px;
+}
+.tech {
+  align-self: flex-end;
+  color: #6a937d;
+  font-style: oblique;
+  font-size: 18px;
+  text-shadow: #6a937d 1px 0px 10px;
+}
+.skills {
+  align-self: flex-end;
+  color: #6a937d;
+  font-size: 18px;
+}
+
+button {
+  background-color: bisque;
+}
+.active{
+
+background-color: aliceblue;
+text-shadow: #6a937d 1px 0px 10px;
+
+
+}
+
+
+
+
+
+
