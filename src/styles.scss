@@ -1,2 +1,15 @@
-html, body { height: 100%; }
-body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
+html, body {
+
+  height: 100%;
+
+
+  @font-face {
+  font-family: lato;
+  src: url(assets/Font-Lato/Lato-Hairline.ttf) format("opentype");
+}
+}
+body { margin: 0; font-family:Lato, "Helvetica Neue", sans-serif;
+
+
+
+}

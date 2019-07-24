@@ -21,6 +21,9 @@ import {MatButtonToggleModule} from '@angular/material/button-toggle';
 import {MatButtonModule} from '@angular/material/button';
 import {RouterModule} from '@angular/router';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import {MatProgressBarModule} from '@angular/material/progress-bar';
+import {MatCardModule} from '@angular/material/card';
+import {MatExpansionModule} from '@angular/material/expansion';
 
 @NgModule({
   declarations: [
@@ -46,12 +49,16 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
     MatButtonModule,
     MatIconModule,
     BrowserAnimationsModule,
+    MatProgressBarModule,
+    MatExpansionModule,
+    MatCardModule,
     RouterModule.forRoot([
+      {path: 'accueil', component: AccueilComponent},
       {path: 'exp', component: ExperienceComponent},
       {path: 'formation', component: FormationComponent},
+      {path: 'competence', component:CompetenceComponent },
       {path: 'skills', component: SkillsComponent},
-      {path: 'comptence', component: SkillsComponent},
-      {path: '**', redirectTo: 'list'}
+      {path: '**', redirectTo: 'accueil'}
     ]),
   ],
   providers: [],

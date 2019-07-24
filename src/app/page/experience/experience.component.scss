@@ -1,0 +1,50 @@
+.bloc {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  width: 100%;
+  margin-left: 15%;
+  margin-top: 12%;
+}
+
+.parcours {
+  font-size: 20px;
+  color: #6a937d;
+}
+
+.experience {
+  font-size: 25px;
+  margin: 35px 0px 30px 30px;
+}
+.material-icons {
+  margin-right: 10px;
+}
+
+.cultura,
+.geant,
+.auchan {
+  margin-left: 13%;
+}
+
+mat-expansion-panel {
+  width: 60%;
+}
+.bloc1 {
+  display: flex;
+  margin-left: 50px;
+  flex-direction: column;
+}
+
+.description,
+.para {
+  margin-left: 60px;
+}
+
+.localisation {
+  font-size: 13px;
+  color: #6a937d;
+}
+
+.bloc2 {
+  margin: 20px 0px 10px 0px;
+}
