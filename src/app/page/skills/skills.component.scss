@@ -1,23 +1,32 @@
+.bloc {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+  height:60vh ;
+  width: 80vw;
+
+}
 .skills {
   font-size: 25px;
   margin: 35px 0px 30px 30px;
+
 }
 
 .autonome,
-  .proactif,
-  .disponible,
-  .efficace,
-  .responsable,
-  .bienveillant{
-
-font-size: 15px;
-
-
-  }
+.ecoute,
+.disponible,
+.efficace,
+.responsable,
+.bienveillant {
+  font-size: 18px;
+  color: #6a937d;
+}
 
 
 // -- vars
-$bg-color: #34495e;
+$bg-color:#6a937d;
 $default-size: 1em;
 $label-font-size: $default-size / 4;
 $label-font-size-redo: $default-size * 4;
@@ -127,7 +136,7 @@ $label-font-size-redo: $default-size * 4;
     top: $label-font-size-redo / 10;
 
     .smaller {
-      color: #bdc3c7;
+      color: bisque;
       font-size: 0.45em;
       padding-bottom: 20px;
       vertical-align: super;
@@ -135,6 +144,24 @@ $label-font-size-redo: $default-size * 4;
   }
 
   &.progress-30 {
-    @include draw-progress(30, #3498db);
+    @include draw-progress(30, bisque );
   }
+
+  &.progress-60 {
+    @include draw-progress(60,bisque);
+  }
+
+  &.progress-90 {
+    @include draw-progress(90,bisque);
+  }
+  &.progress-75 {
+    @include draw-progress(75,bisque);
+  }
+  &.progress-95 {
+    @include draw-progress(95, bisque);
+  }
+
+
+
 }
+

@@ -24,6 +24,7 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import {MatProgressBarModule} from '@angular/material/progress-bar';
 import {MatCardModule} from '@angular/material/card';
 import {MatExpansionModule} from '@angular/material/expansion';
+import { OpenCloseComponent } from './open-close/open-close.component';
 
 @NgModule({
   declarations: [
@@ -40,7 +41,8 @@ import {MatExpansionModule} from '@angular/material/expansion';
     AccueilComponent,
     Competence1Component,
     Competence2Component,
-    Competence3Component
+    Competence3Component,
+    OpenCloseComponent
   ],
   imports: [
     BrowserModule,

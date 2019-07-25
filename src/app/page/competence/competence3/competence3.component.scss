@@ -166,6 +166,14 @@
   margin-bottom: 0px;
 }
 
+.bloc {
+  transition: 0.5s ease all;
+}
+
+.bloc:hover {
+  opacity: 0;
+}
+
 .bloc1,
 .bloc2,
 .bloc3,
