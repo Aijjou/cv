@@ -1,1 +1,77 @@
 <div class="formations">Formations</div>
+
+<div class="bloc">
+<mat-accordion class="example-headers-align">
+    <mat-expansion-panel [expanded]="step === 1" (opened)="setStep(1)" hideToggle>
+        <mat-expansion-panel-header>
+          <mat-panel-title>
+            TITRE PROFESSIONNEL "Developpeur Web et Mobile"
+          </mat-panel-title>
+          <mat-panel-description>
+            FOREACH ACADEMY
+            <div>Mai 2019 - Octobre 2019</div>
+            <mat-icon>account_circle</mat-icon>
+          </mat-panel-description>
+        </mat-expansion-panel-header>
+        <p> Durée : 4 mois de formation + 2 mois de stage en entreprise.</p>
+        <p> Contenu : Algorithmie - Web - Base de donnée - Java avancé - Environnement de developpement - Un Projet Complet.</p>
+        <p> Language : </p>
+      </mat-expansion-panel>
+
+  <mat-expansion-panel [expanded]="step === 2" (opened)="setStep(2)" hideToggle>
+    <mat-expansion-panel-header>
+      <mat-panel-title>
+        DESS CFI
+      </mat-panel-title>
+      <mat-panel-description>
+        ESA LILLE II
+        &nbsp; &nbsp; &nbsp; &nbsp; <div>Septembre 2002 - Juin 2003</div>
+        <mat-icon>account_circle</mat-icon>
+      </mat-panel-description>
+    </mat-expansion-panel-header>
+  </mat-expansion-panel>
+
+  <mat-expansion-panel [expanded]="step === 3" (opened)="setStep(3)" hideToggle>
+    <mat-expansion-panel-header>
+      <mat-panel-title>
+        MATRISE AES
+      </mat-panel-title>
+      <mat-panel-description>
+        UNIVERSITE LILLE II
+        <div>Septembre 2001 - Juin 2002</div>
+        <mat-icon>map</mat-icon>
+      </mat-panel-description>
+    </mat-expansion-panel-header>
+
+    <p>coucou</p>
+
+  </mat-expansion-panel>
+
+  <mat-expansion-panel [expanded]="step === 4" (opened)="setStep(4)" hideToggle>
+    <mat-expansion-panel-header>
+      <mat-panel-title>
+        LICENCE AES
+      </mat-panel-title>
+      <mat-panel-description>
+        UNIVERSITE LILLE II
+        <div>Septembre 2000 - Juin 2001</div>
+        <mat-icon>date_range</mat-icon>
+      </mat-panel-description>
+    </mat-expansion-panel-header>
+  </mat-expansion-panel>
+
+  <mat-expansion-panel [expanded]="step === 5" (opened)="setStep(5)" hideToggle>
+      <mat-expansion-panel-header>
+        <mat-panel-title>
+          DEUG AES
+        </mat-panel-title>
+        <mat-panel-description>
+          UNIVERSITE LILLE II
+          <div>Septembre 1998 - Juin 2000</div>
+          <mat-icon>account_circle</mat-icon>
+        </mat-panel-description>
+      </mat-expansion-panel-header>
+    </mat-expansion-panel>
+
+</mat-accordion>
+</div>

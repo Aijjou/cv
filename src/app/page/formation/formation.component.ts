@@ -5,11 +5,25 @@ import { Component, OnInit } from '@angular/core';
   templateUrl: './formation.component.html',
   styleUrls: ['./formation.component.scss']
 })
-export class FormationComponent implements OnInit {
+export class FormationComponent{
+  
+  step = 0;
 
-  constructor() { }
+  setStep(index: number) {
+    this.step = index;
+  }
 
-  ngOnInit() {
+  nextStep() {
+    this.step++;
+  }
+
+  prevStep() {
+    this.step--;
   }
 
 }
+
+
+
+
+

@@ -25,6 +25,8 @@ import {MatProgressBarModule} from '@angular/material/progress-bar';
 import {MatCardModule} from '@angular/material/card';
 import {MatExpansionModule} from '@angular/material/expansion';
 import { OpenCloseComponent } from './open-close/open-close.component';
+import { MatRippleModule } from '@angular/material/core';
+
 
 @NgModule({
   declarations: [
@@ -54,6 +56,7 @@ import { OpenCloseComponent } from './open-close/open-close.component';
     MatProgressBarModule,
     MatExpansionModule,
     MatCardModule,
+    MatRippleModule,
     RouterModule.forRoot([
       {path: 'accueil', component: AccueilComponent},
       {path: 'exp', component: ExperienceComponent},
