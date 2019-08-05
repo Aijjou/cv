@@ -1,3 +1,10 @@
+:host{
+
+font-family: lato;
+
+
+
+}
 
 .formations {
   font-size: 25px;
@@ -18,29 +25,82 @@ mat-form-field {
   margin-right: 12px;
 }
 
-mat-panel-title, mat-panel-description {
-
-background-color: bisque;
-border:none;
-padding:6px 0 6px 0;
-border-radius:2px;
-box-shadow:1px 1px 3px #aaa;
-font:bold 13px Arial;
-color:#6a937d;
-
-
+mat-panel-title,
+mat-panel-description {
+  background-color: bisque;
+  border: none;
+  padding: 6px 0 6px 0;
+  border-radius: 2px;
+  box-shadow: 1px 1px 3px #aaa;
+  font: bold 13px Arial;
+  color: #6a937d;
 }
 
+.example-headers-align {
+  margin-top: 150px;
+  margin-left: 30px;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  width: 100%;
+}
 
+.outils,
+.contenu,
+.organisation,
+.language,
+.duree,
+.projet {
+  color: #6a937d;
+  font-size: 17px;
+  margin-right: 7px;
+}
+.titrepro1,
+.titrepro2,
+.titrepro3,
+.titrepro4,
+.titrepro5,
+.titrepro6 {
+  display: flex;
+  flex-direction: row;
+  padding: 7px;
+}
 
-.example-headers-align{
-margin-top: 150px;
-margin-left: 30px;
-display: flex;
-flex-direction: column;
-height: 100%;
-width: 100%;
+.date1,
+.date2,
+.date3,
+.date4,
+.date5 {
+  margin-right: 35px;
+}
 
+.date2 {
+  margin-left: 50px;
+}
 
+.date1 {
+  margin-right: 50px;
+}
 
+.titredev,
+.titredess,
+.titremait,
+.titrelicen,
+.titredeug {
+  margin-left: 35px;
+  padding-top: 5px;
+}
+
+.foreach,
+.esa,
+.lille1,
+.lille2,
+.lille3,
+.lille4,
+.lille5 {
+  margin-left: 35px;
+}
+
+.material-icons {
+  margin-right: 40px;
 }
