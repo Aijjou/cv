@@ -61,7 +61,7 @@ import { MatRippleModule } from '@angular/material/core';
       {path: 'accueil', component: AccueilComponent},
       {path: 'exp', component: ExperienceComponent},
       {path: 'formation', component: FormationComponent},
-      {path: 'competence', component:CompetenceComponent },
+      {path: 'competence', component: CompetenceComponent},
       {path: 'skills', component: SkillsComponent},
       {path: '**', redirectTo: 'accueil'}
     ]),

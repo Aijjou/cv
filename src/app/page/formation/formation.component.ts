@@ -5,8 +5,7 @@ import { Component, OnInit } from '@angular/core';
   templateUrl: './formation.component.html',
   styleUrls: ['./formation.component.scss']
 })
-export class FormationComponent{
-  
+export class FormationComponent {
   step = 0;
 
   setStep(index: number) {
